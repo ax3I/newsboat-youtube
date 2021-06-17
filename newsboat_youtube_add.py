@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Added Youtube channel to Newsboat URLs:
     youtube channel url: https://www.youtube.com/channel/UCUZHFZ9jIKrLroW8LcyJEQQ
