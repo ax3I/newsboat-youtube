@@ -35,7 +35,7 @@ def create_rss_link() -> str:
     return template_url + channel_id
 
 
-def check_already_exists(newsboat_url) -> None:
+def check_already_exists(newsboat_url: str) -> None:
     """ Exit if channel id already exists in newsboat urls. """
     with open(NEWSBOAT_URLS_FILE, "r") as file:
         for line in file:
@@ -51,7 +51,7 @@ def get_count_newsboat_urls() -> int:
     return num_lines
 
 
-def add_newsboat_url(newsboat_url) -> None:
+def add_newsboat_url(newsboat_url: str) -> None:
     """ Add correct newsboat url with Youtube channel. """
     check_already_exists(newsboat_url)
     with open(NEWSBOAT_URLS_FILE, "a") as file:
