@@ -3,7 +3,10 @@ Add YouTube Channel to Newsboat URLs
 
 # usage
 ```
-newsboat_youtube_add.py https://www.youtube.com/channel/UCUZHFZ9jIKrLroW8LcyJEQQ
+for add channel:
+newsboat_youtube_add.py -a https://www.youtube.com/channel/UCUZHFZ9jIKrLroW8LcyJEQQ
+for delete channel:
+newsboat_youtube_add.py -d https://www.youtube.com/channel/UCUZHFZ9jIKrLroW8LcyJEQQ
 ```
 
 # result
