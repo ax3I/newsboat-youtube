@@ -1,3 +1,6 @@
+# Why?
+Newsboat and MPV player is the best way to watch Youtube videos without ads, javascript and browser brakes.
+
 # newsboat-youtube
 Add YouTube Channel to Newsboat URLs
 
